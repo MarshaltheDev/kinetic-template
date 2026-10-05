@@ -54,4 +54,4 @@ This template was built with the assistance from local LLMs, such as Qwen3.8 27B
 
 ## License
 
-[MIT](LICENSE), including the placeholder images in `public/`.
+[MIT](LICENSE)
