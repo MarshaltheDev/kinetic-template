@@ -38,12 +38,6 @@ Almost everything lives in `config/`:
 
 Text can use the tokens `{brand}`, `{brandFull}`, `{shortName}`, `{siteUrl}` and `{year}`, plus any key from `urls` in `config.json` (like `{discord}`).
 
-Every color in `theme.json` becomes a Tailwind class, so `surfaceAlt` is available as `bg-brand-surface-alt`. Images go in `public/` and get referenced from `config/images.json`. Icons in `text.json` are Lucide names, and any new ones need to be added to `app/lib/icons.ts`.
-
-Add a game to `games.json` and its detail page at `/game-hosting/<id>` is generated for you. Each game points at its own images (`logo`, `banner`, `hero`), which live in `public/games/logo/`, `public/games/banners/` and `public/games/hero/`.
-
-The site uses the system font stack by default. Inter, Space Grotesk and Rubik are loaded in `app/layout.tsx` if you want them; any other Google Font needs to be added there.
-
 ## Before you launch
 
 - Replace the placeholder content. In all of the config files.
