@@ -1,4 +1,4 @@
-# Hosting Template
+# kinetic Template
 
 This is a hosting template for hosting companies. It has a landing page, a VPS catalog, a game catalog with a detail page for every game, an about page, and the usual other pages that may be needed.
 
