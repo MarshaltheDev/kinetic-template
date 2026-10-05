@@ -1,0 +1,24 @@
+{
+  "_readme": "Site-wide image paths. Files live in public/ and are referenced with a leading slash. Game images (logo, banner, hero) are set per game in games.json. Each `og` key is referenced by `ogImage` in seo.json.",
+  "logo": "/logo.png",
+  "favicon": "/favicon.png",
+  "mascotHero": "/image1.png",
+  "mascotFaq": "/image2.png",
+  "mascotGame": "/image1.png",
+  "about1": "/about1.png",
+  "about2": "/about2.png",
+  "about3": "/about3.png",
+  "showcaseBackgrounds": [
+    "/games/banners/banner.png"
+  ],
+  "og": {
+    "default": "/about1.png",
+    "vpsHosting": "/about1.png",
+    "gameHosting": "/about1.png",
+    "about": "/about1.png",
+    "privacyPolicy": "/about1.png",
+    "termsOfService": "/about1.png",
+    "acceptableUsePolicy": "/about1.png",
+    "serviceLevelAgreement": "/about1.png"
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "_readme": "All visible site copy: tagline, navbar, footer and every page's text. Strings may use {brand}, {brandFull}, {shortName}, {siteUrl}, {year} and any key from `urls` in config.json (e.g. {discord}); they are filled in automatically. Icons are Lucide names (see app/lib/icons.ts).",
+  "brand": {
+    "tagline": "Ipsum at dui vestibulum ante ipsum primis in faucibus orci luctus."
+  },
+  "navbar": {
+    "brandText": "{shortName}",
+    "links": {
+      "vps": "VPS Hosting",
+      "games": "Game Hosting",
+      "otherHosting": "Other Hosting",
+      "other": "Other",
+      "login": "Login",
+      "popularGames": "Popular Games",
+      "resources": "Resources"
+    },
+    "other": [
+      {
+        "label": "About Us",
+        "href": "/about",
+        "icon": "BookOpen"
+      },
+      {
+        "label": "Discord Server",
+        "href": "{discord}",
+        "icon": "MessageCircle"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "/terms-of-service",
+        "icon": "FileText"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy",
+        "icon": "Shield"
+      },
+      {
+        "label": "Acceptable Use Policy",
+        "href": "/acceptable-use-policy",
+        "icon": "Shield"
+      },
+      {
+        "label": "Service Level Agreement",
+        "href": "/service-level-agreement",
+        "icon": "FileText"
+      }
+    ],
+    "otherHostingLinks": [
+      {
+        "label": "Discord Bot Hosting",
+        "href": "/discord-bot-hosting",
+        "description": "Host your Discord bot",
+        "icon": "Bot"
+      },
+      {
+        "label": "TeamSpeak Hosting",
+        "href": "/teamspeak-hosting",
+        "description": "Host your TeamSpeak server",
+        "icon": "Server"
+      }
+    ],
+    "loginLinks": [
+      {
+        "label": "Game Panel",
+        "href": "{gamePanel}",
+        "description": "Manage your game servers",
+        "icon": "FileText"
+      },
+      {
+        "label": "VPS Panel",
+        "href": "{vpsPanel}",
+        "description": "Manage your VPS instances",
+        "icon": "FileText"
+      },
+      {
+        "label": "Billing Panel",
+        "href": "{billingPanel}",
+        "description": "View your billing information",
+        "icon": "FileText"
+      }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          {
+            "label": "VPS Hosting",
+            "href": "/vps-hosting"
+          },
+          {
+            "label": "Game Hosting",
+            "href": "/game-hosting"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms-of-service"
+          },
+          {
+            "label": "Acceptable Use Policy",
+            "href": "/acceptable-use-policy"
+          },
+          {
+            "label": "Service Level Agreement",
+            "href": "/service-level-agreement"
+          },
+          {
+            "label": "Status Page",
+            "href": "{status}"
+          }
+        ]
+      },
+      {
+        "title": "Panels",
+        "links": [
+          {
+            "label": "Game Panel",
+            "href": "{gamePanel}"
+          },
+          {
+            "label": "VPS Panel",
+            "href": "{vpsPanel}"
+          },
+          {
+            "label": "Billing Panel",
+            "href": "{billingPanel}"
+          }
+        ]
+      }
+    ],
+    "bottomLinks": [
+      {
+        "label": "Discord Server",
+        "href": "{discord}"
+      },
+      {
+        "label": "Status Page",
+        "href": "{status}"
+      }
+    ],
+    "copyright": "© {year} {brand}. All rights reserved."
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Dedicated servers",
+        "highlight": "for performance",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.",
+        "cta": {
+          "label": "Deploy Your Server",
+          "href": "/vps-hosting"
+        },
+        "mascotAlt": "{brand} mascot"
+      },
+      "features": {
+        "title": "Built for Performance and Reliability",
+        "items": [
+          {
+            "icon": "Server",
+            "title": "Dedicated Resources",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nibh a lorem commodo congue."
+          },
+          {
+            "icon": "Shield",
+            "title": "DDoS Protection",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod consequat lacus, sed bibendum lectus fringilla vel."
+          },
+          {
+            "icon": "Globe",
+            "title": "Global Network",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed velit ac mauris mattis laoreet ac at dolor."
+          },
+          {
+            "icon": "Zap",
+            "title": "Instant Deployment",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat lacus et arcu feugiat, ut consequat ipsum pulvinar."
+          },
+          {
+            "icon": "Lock",
+            "title": "Secure by Default",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in nibh feugiat, viverra nunc a, aliquam mauris."
+          },
+          {
+            "icon": "Clock",
+            "title": "24/7 Support",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor magna vel tellus hendrerit vehicula."
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Simple, transparent pricing",
+        "subtitle": "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut.",
+        "popularLabel": "Most Popular",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "$5",
+            "period": "/mo",
+            "description": "Orci luctus lorem ipsum dolor sit amet.",
+            "features": [
+              "1 vCPU Core",
+              "1 GB RAM",
+              "25 GB NVMe SSD",
+              "1 TB Transfer",
+              "DDoS Protection",
+              "99.9% Uptime"
+            ],
+            "cta": "Get Started",
+            "highlighted": false
+          },
+          {
+            "name": "Pro",
+            "price": "$15",
+            "period": "/mo",
+            "description": "Ipsum dolor sit amet consectetur.",
+            "features": [
+              "2 vCPU Cores",
+              "4 GB RAM",
+              "80 GB NVMe SSD",
+              "4 TB Transfer",
+              "DDoS Protection",
+              "99.9% Uptime",
+              "Priority Support",
+              "Daily Backups"
+            ],
+            "cta": "Get Started",
+            "highlighted": true
+          },
+          {
+            "name": "Business",
+            "price": "$40",
+            "period": "/mo",
+            "description": "Sed do eiusmod tempor incididunt.",
+            "features": [
+              "4 vCPU Cores",
+              "8 GB RAM",
+              "160 GB NVMe SSD",
+              "8 TB Transfer",
+              "DDoS Protection",
+              "99.9% Uptime",
+              "24/7 Priority Support",
+              "Daily Backups",
+              "Snapshots",
+              "Load Balancer"
+            ],
+            "cta": "Get Started",
+            "highlighted": false
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is {brand}?",
+            "answer": "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute. Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur."
+          },
+          {
+            "question": "How fast is deployment?",
+            "answer": "Aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in. Voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat."
+          },
+          {
+            "question": "Can I upgrade my plan later?",
+            "answer": "Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non."
+          },
+          {
+            "question": "What operating systems are supported?",
+            "answer": "Esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in. Culpa qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida."
+          },
+          {
+            "question": "Do you offer a money-back guarantee?",
+            "answer": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus."
+          }
+        ]
+      },
+      "gamesShowcase": {
+        "title": "Host Dedicated Servers for",
+        "highlight": "5+ Popular Games",
+        "descriptionLead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor for",
+        "featuredGames": [
+          "Minecraft",
+          "ARK",
+          "Rust"
+        ],
+        "descriptionTail": "and many more titles.",
+        "button": {
+          "label": "Browse All Games",
+          "href": "/game-hosting"
+        }
+      }
+    },
+    "vps": {
+      "hero": {
+        "title": "Powerful",
+        "highlight": "VPS Hosting",
+        "description": "Enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+      },
+      "plans": {
+        "title": "Select a Plan",
+        "description": "Ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit.",
+        "comingSoonTitle": "Coming Soon",
+        "comingSoonDescription": "Commodo consequat duis aute irure dolor in reprehenderit in."
+      },
+      "features": {
+        "title": "Everything You Need to Host with Confidence",
+        "description": "Neque ut vulputate ullamcorper sem mauris elementum sapien ac iaculis eros ipsum at dui vestibulum ante ipsum primis.",
+        "items": [
+          {
+            "icon": "Monitor",
+            "title": "Custom Control Panel",
+            "description": "Et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris. Nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate."
+          },
+          {
+            "icon": "Zap",
+            "title": "Rapid Deployment",
+            "description": "Minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse."
+          },
+          {
+            "icon": "Server",
+            "title": "Linux & Windows VPS",
+            "description": "Nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit. In voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat."
+          },
+          {
+            "icon": "Shield",
+            "title": "DDoS Protection",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui."
+          },
+          {
+            "icon": "Hexagon",
+            "title": "Daily Backups & Snapshots",
+            "description": "Voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt."
+          },
+          {
+            "icon": "Globe",
+            "title": "Global Data Center Network",
+            "description": "Nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa. Qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a VPS?",
+            "answer": "Proident sunt in culpa qui officia deserunt mollit anim id est laborum curabitur. Pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo."
+          },
+          {
+            "question": "How fast is deployment?",
+            "answer": "Mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida orci. A odio nullam varius turpis et commodo pharetra integer feugiat lacus et arcu."
+          },
+          {
+            "question": "Can I upgrade my VPS later?",
+            "answer": "Tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo pharetra integer feugiat lacus et arcu feugiat ut consequat."
+          },
+          {
+            "question": "What operating systems are supported?",
+            "answer": "Nullam varius turpis et commodo pharetra integer feugiat lacus et arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque."
+          },
+          {
+            "question": "Do you offer a money-back guarantee?",
+            "answer": "Feugiat lacus et arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque ut vulputate ullamcorper sem mauris elementum sapien ac iaculis."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to get started with",
+        "highlight": "VPS hosting",
+        "description": "Incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco.",
+        "button": {
+          "label": "View All Plans",
+          "href": "#plans"
+        }
+      }
+    },
+    "games": {
+      "hero": {
+        "title": "Powerful",
+        "highlight": "Game Hosting",
+        "description": "Adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation."
+      },
+      "list": {
+        "title": "Choose Your",
+        "highlight": "Game Server",
+        "searchPlaceholder": "Search for games...",
+        "description": "Elementum sapien ac iaculis eros ipsum at dui vestibulum ante ipsum primis in faucibus orci luctus lorem ipsum dolor sit amet consectetur.",
+        "comingSoonTitle": "Coming Soon",
+        "comingSoonDescription": "Dui vestibulum ante ipsum primis in faucibus orci luctus lorem ipsum dolor."
+      },
+      "features": {
+        "title": "Everything You Need to Host Game Servers",
+        "description": "Ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+        "items": [
+          {
+            "icon": "Zap",
+            "title": "Instant Deployment",
+            "description": "At dui vestibulum ante ipsum primis in faucibus orci luctus lorem ipsum dolor sit amet consectetur."
+          },
+          {
+            "icon": "Shield",
+            "title": "DDoS Protection",
+            "description": "Faucibus orci luctus lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore."
+          },
+          {
+            "icon": "Server",
+            "title": "NVMe SSD Storage",
+            "description": "Pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo pharetra integer feugiat lacus et."
+          },
+          {
+            "icon": "Globe",
+            "title": "Global Network",
+            "description": "Odio nullam varius turpis et commodo pharetra integer feugiat lacus et arcu feugiat ut consequat ipsum pulvinar etiam."
+          },
+          {
+            "icon": "Gamepad2",
+            "title": "Full Mod Support",
+            "description": "Integer feugiat lacus et arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque ut vulputate ullamcorper sem mauris elementum sapien."
+          },
+          {
+            "icon": "Monitor",
+            "title": "Custom Control Panel",
+            "description": "Consequat ipsum pulvinar etiam vehicula neque ut vulputate ullamcorper sem mauris elementum sapien ac iaculis eros ipsum at dui vestibulum ante ipsum."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How quickly is my game server ready?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "question": "Is DDoS protection included?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat lacus et arcu feugiat, ut consequat ipsum pulvinar."
+          },
+          {
+            "question": "Can I install mods and plugins?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed velit ac mauris mattis laoreet ac at dolor."
+          },
+          {
+            "question": "Can I upgrade or downgrade my plan?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in nibh feugiat, viverra nunc a, aliquam mauris."
+          },
+          {
+            "question": "Where are your servers located?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor magna vel tellus hendrerit vehicula."
+          },
+          {
+            "question": "How do I manage my server?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nibh a lorem commodo congue, sed bibendum lectus fringilla vel."
+          },
+          {
+            "question": "What payment methods do you accept?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to get started with",
+        "highlight": "game server hosting",
+        "description": "Mauris elementum sapien ac iaculis eros ipsum at dui vestibulum ante ipsum primis in faucibus orci luctus lorem ipsum dolor sit amet.",
+        "button": {
+          "label": "View All Games",
+          "href": "#games"
+        }
+      },
+      "details": {
+        "choosePlanTitle": "Choose Your",
+        "choosePlanHighlight": "Plan",
+        "includedTitle": "Everything included",
+        "includedHighlight": "by default",
+        "includedDescription": "Arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque.",
+        "included": [
+          {
+            "icon": "ShieldCheck",
+            "title": "Enterprise DDoS Protection",
+            "description": "Laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor."
+          },
+          {
+            "icon": "HardDrive",
+            "title": "NVMe SSD Storage",
+            "description": "Consequat duis aute irure dolor in reprehenderit in voluptate velit."
+          },
+          {
+            "icon": "Zap",
+            "title": "Instant Setup",
+            "description": "In voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          {
+            "icon": "Globe",
+            "title": "Global Network",
+            "description": "Fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt."
+          },
+          {
+            "icon": "Package",
+            "title": "Full Mod & Plugin Support",
+            "description": "Non proident sunt in culpa qui officia deserunt mollit anim id est laborum curabitur."
+          },
+          {
+            "icon": "Headphones",
+            "title": "24/7 Expert Support",
+            "description": "Deserunt mollit anim id est laborum curabitur pretium tincidunt lacus."
+          }
+        ],
+        "faqTitle": "Frequently Asked Questions",
+        "faq": [
+          {
+            "question": "How do I get started with {game} hosting?",
+            "answer": "Dolor in reprehenderit {game} in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in."
+          },
+          {
+            "question": "How much does {game} server hosting cost?",
+            "answer": "Cillum dolore eu {price} fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est."
+          },
+          {
+            "question": "Can I install mods and plugins on my {game} server?",
+            "answer": "Sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim. Id est laborum curabitur pretium tincidunt lacus nulla gravida orci a odio nullam varius."
+          },
+          {
+            "question": "Is DDoS protection included with my {game} server?",
+            "answer": "Culpa qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt. Lacus nulla gravida orci a odio nullam varius turpis et commodo pharetra integer."
+          },
+          {
+            "question": "Can I upgrade my {game} plan later?",
+            "answer": "Est laborum curabitur pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo pharetra integer feugiat lacus et arcu."
+          },
+          {
+            "question": "Where are your {game} servers located?",
+            "answer": "Gravida orci a odio nullam varius turpis et commodo pharetra integer feugiat. Lacus et arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque ut vulputate."
+          }
+        ],
+        "ctaTitle": "Ready to get started with",
+        "ctaHighlight": "{game} hosting",
+        "ctaDescription": "Vehicula neque ut vulputate ullamcorper sem mauris elementum sapien ac iaculis eros ipsum at dui vestibulum ante ipsum primis in."
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "About {brand}",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum curabitur pretium."
+      },
+      "sections": [
+        {
+          "title": "Our Story",
+          "image": "about1",
+          "imageAlt": "{brand}",
+          "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+            "Officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo."
+          ]
+        },
+        {
+          "title": "Our Mission",
+          "image": "about2",
+          "imageAlt": "{brand} Mission",
+          "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque, risus nec dictum sodales, risus leo feugiat ipsum, vitae consectetur metus sem id tortor.",
+            "Curabitur pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et commodo pharetra integer feugiat lacus."
+          ]
+        },
+        {
+          "title": "Our Values",
+          "image": "about3",
+          "imageAlt": "{brand} Values",
+          "paragraphs": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor magna vel tellus hendrerit vehicula. Duis ut mattis nulla, ut malesuada purus.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor magna vel tellus hendrerit vehicula. Duis ut mattis nulla, ut malesuada purus."
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Ready to get started?",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "button": {
+          "label": "Get Started",
+          "href": "/vps-hosting"
+        }
+      }
+    },
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "message": "This page is probably under development",
+      "button": {
+        "label": "Go Back",
+        "href": "/"
+      },
+      "metaDescription": "Elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim."
+    }
+  }
+}

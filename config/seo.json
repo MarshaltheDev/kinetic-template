@@ -1,0 +1,114 @@
+{
+  "_readme": "Search/social metadata. Per-page entries are keyed by route; `ogImage` is a key from images.json -> og. Strings may use {brand}, {brandFull}, {shortName}, {siteUrl}, {year} and any key from `urls` in config.json (e.g. {discord}); they are filled in automatically. The `game` block also accepts {game}, {price} and {id}.",
+  "site": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "defaultTitle": "{brand} - Game Server and VPS Hosting",
+    "titleTemplate": "%s | {brand}",
+    "keywords": [
+      "game server hosting",
+      "vps hosting",
+      "dedicated server",
+      "ddos protection",
+      "minecraft hosting",
+      "rust server hosting",
+      "valheim server hosting",
+      "palworld hosting",
+      "ark server hosting",
+      "dayz server hosting",
+      "game hosting",
+      "cloud hosting"
+    ]
+  },
+  "pages": {
+    "/": {
+      "title": "{brand} | Game Servers & VPS Hosting",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "keywords": [
+        "vps hosting",
+        "game server hosting",
+        "dedicated server",
+        "ddos protection",
+        "game hosting",
+        "minecraft hosting",
+        "rust server hosting",
+        "valheim server hosting"
+      ],
+      "ogImage": "default",
+      "ogAlt": "{brand} - Game Server and VPS Hosting"
+    },
+    "/vps-hosting": {
+      "title": "Virtual Private Server Hosting",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nibh a lorem commodo congue vel vel enim.",
+      "keywords": [
+        "vps hosting",
+        "cloud hosting",
+        "virtual private server",
+        "enterprise vps",
+        "cloud vps",
+        "ddos protection"
+      ],
+      "ogImage": "vpsHosting",
+      "ogAlt": "{brand} - VPS Hosting"
+    },
+    "/game-hosting": {
+      "title": "Game Server Hosting",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat lacus et arcu feugiat, ut consequat ipsum pulvinar.",
+      "keywords": [
+        "game server hosting",
+        "rust server hosting",
+        "minecraft server hosting",
+        "palworld server hosting",
+        "ark server hosting",
+        "dayz server hosting",
+        "valheim server hosting",
+        "game hosting",
+        "dedicated game servers"
+      ],
+      "ogImage": "gameHosting",
+      "ogAlt": "{brand} - Game Server Hosting"
+    },
+    "/about": {
+      "title": "About {brand}",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat lacus et arcu feugiat, ut consequat ipsum pulvinar.",
+      "ogImage": "about",
+      "ogAlt": "{brand} - About Us"
+    },
+    "/privacy-policy": {
+      "title": "Privacy Policy",
+      "description": "In faucibus orci luctus lorem ipsum dolor sit amet consectetur adipiscing elit sed. Do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad.",
+      "ogImage": "privacyPolicy",
+      "ogAlt": "{brand} - Privacy Policy"
+    },
+    "/terms-of-service": {
+      "title": "Terms of Service",
+      "description": "In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa qui.",
+      "ogImage": "termsOfService",
+      "ogAlt": "{brand} - Terms of Service"
+    },
+    "/acceptable-use-policy": {
+      "title": "Acceptable Use Policy",
+      "description": "Qui officia deserunt mollit anim id est laborum curabitur pretium tincidunt lacus nulla gravida orci a odio nullam varius turpis et.",
+      "ogImage": "acceptableUsePolicy",
+      "ogAlt": "{brand} - Acceptable Use Policy"
+    },
+    "/service-level-agreement": {
+      "title": "Service Level Agreement",
+      "description": "Commodo pharetra integer feugiat lacus et arcu feugiat ut consequat ipsum pulvinar etiam vehicula neque ut vulputate ullamcorper sem mauris.",
+      "ogImage": "serviceLevelAgreement",
+      "ogAlt": "{brand} - Service Level Agreement"
+    }
+  },
+  "game": {
+    "title": "{game} Server Hosting - NVMe SSD, Instant Deploy from {price}",
+    "description": "Host a {game} server with NVMe SSD hardware, instant deployment, enterprise DDoS protection, and full control panel access. Starting at {price} per month on {brand}.",
+    "keywords": [
+      "{game} server hosting",
+      "{game} dedicated server",
+      "{game} hosting",
+      "{brand} {game} hosting"
+    ],
+    "ogAlt": "{game} Server Hosting by {brand}",
+    "notFoundTitle": "Game Server Not Found | {brand}",
+    "notFoundDescription": "Do eiusmod tempor incididunt ut labore et dolore."
+  }
+}

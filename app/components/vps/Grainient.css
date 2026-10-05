@@ -1,0 +1,10 @@
+/*
+ * Container styles for the Grainient background. Used by: Grainient.tsx
+ */
+
+.grainient-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,42 @@
+{
+  "_readme": "Core settings: who the site is and where things live. Copy lives in text.json, SEO in seo.json, colors/fonts in theme.json, image paths in images.json.",
+  "brand": {
+    "name": "Placeholder Brand",
+    "shortName": "Placeholder",
+    "nameFull": "Placeholder Brand",
+    "founded": 2020
+  },
+  "site": {
+    "url": "https://example.com",
+    "locale": "en_US",
+    "language": "en",
+    "colorScheme": "dark"
+  },
+  "social": {
+    "twitterHandle": "@example",
+    "links": [
+      {
+        "type": "github",
+        "label": "GitHub",
+        "href": "https://github.com"
+      },
+      {
+        "type": "twitter",
+        "label": "Twitter",
+        "href": "https://twitter.com"
+      },
+      {
+        "type": "discord",
+        "label": "Discord",
+        "href": "https://discord.com"
+      }
+    ]
+  },
+  "urls": {
+    "discord": "https://discord.com",
+    "status": "https://status.example.com/",
+    "gamePanel": "https://panel.example.com/",
+    "vpsPanel": "https://vps.example.com/",
+    "billingPanel": "https://billing.example.com/"
+  }
+}
