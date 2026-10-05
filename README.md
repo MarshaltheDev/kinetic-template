@@ -1,8 +1,16 @@
-# Kinetic Template
+# Hosting Template
 
 This is a hosting template for hosting companies. It has a landing page, a VPS catalog, a game catalog with a detail page for every game, an about page, and the usual other pages that may be needed.
 
 Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4 and Framer Motion.
+
+![Home hero](screenshots/home-hero.png)
+
+![Pricing](screenshots/pricing.png)
+
+![VPS hosting](screenshots/vps-hosting.png)
+
+![Game hosting](screenshots/game-hosting.png)
 
 ## Getting started
 
@@ -56,11 +64,3 @@ This template was built with the assistance from local LLMs, such as Qwen3.8 27B
 
 [MIT](LICENSE)
 
-
-![Home hero](screenshots/home-hero.png)
-
-![Pricing](screenshots/pricing.png)
-
-![VPS hosting](screenshots/vps-hosting.png)
-
-![Game hosting](screenshots/game-hosting.png)
